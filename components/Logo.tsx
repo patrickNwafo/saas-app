@@ -1,6 +1,6 @@
 "use client";
 
-import LogoImage from "@logos/black/36.jpg";
+import LogoImage from "@logos/black/black.2e8db712.svg";
 import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,8 +17,8 @@ const Logo = () => {
                     src={LogoImage}
                     alt="logo"
                     className="dark:filter dark:invert"
-                    width={30}
-                    height={30}
+                    // width={30}
+                    // height={30}
                 />
 
                 <AspectRatio />
