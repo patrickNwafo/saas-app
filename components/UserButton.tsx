@@ -14,6 +14,7 @@ import { Button } from "./ui/button";
 import { signIn, signOut } from "next-auth/react";
 
 function UserButton({ session }: { session: Session | null }) {
+    // Subscription listener...
     if (!session)
         return (
             <Button value={"outline"} onClick={() => signIn()}>

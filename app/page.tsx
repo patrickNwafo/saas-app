@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import DemoGif from "@/images/landingPage/demo.gif";
 
-export default function Home() {
+export default async function Home() {
     return (
         <main className="">
             {/* <h1>Lests build a Software as a Service App</h1> */}
